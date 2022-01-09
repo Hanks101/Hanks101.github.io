@@ -3,6 +3,33 @@
   <head>
   
   <style> 
+  /* Add a black background color to the top navigation */
+  .topnav {
+  background-color: #333;
+  overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+  }
   /*When you want to select using html tag, you can directly put that tag name*/ 
   
   div::first-letter { 
@@ -55,7 +82,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title><h1 style="text-align:center;">GeoDev Portal - Njala University </h1></title>
+    <title><h1 style="text-align:center;">GeoDev  - eLIBRARY </h1></title>
   </head>
   
   <body>
@@ -71,16 +98,13 @@
    
 
 <!-- Top Nav -->
-<ul>
-  <li><a  href="#">Home</a></li>
-  <li><a  href="#">Contact GeoDev</a></li>
-      <li><a href="#">GeoDev eLibrary</a></li>
-        <li><a href="#">Past Exams QnA </a></li>
-          <li><a href="#">Scanned Notes</a></li>
-              <li><a href="#">eNotice-Board</a></li>
-</ul>
 
-
+<div class="topnav">
+  <a class="active"  href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+</div>
 
 
 <div class="row" id="main-content">			
@@ -102,69 +126,28 @@
 </div>
 <hr>
 	<br><br>
-		
+	<h2>Important</h2>
+	<ul>
+	<li><a href="#"  target="_blank">GeoDev Constitution</a></li>
+	<li><a href="#" >Sample Dissertations</a></li>
+	<li><a href="#" > Research ,Publications and Articles </a></li>
+	<li><a href="#" >Brundtland Report</a></li>
+	<li><a href="#" >Our Common Future</a></li>
+	<li><a href="#" >Robert Chambers</li>
+	</ul>
+	
+	<h2>Courses' Notes And Pamphlets </h2>
+	<ul>
+	<li><a href="#" >Development Theories And Concepts</a></li>
+	
+	
+	</ul>
+	
+	<h2>Presentations And Slides</h2>
+	
 <article>
   <hgroup>
  <br><br>
-
-<center><h1>Resources GeoDev Students</h1></center>
-            </hgroup>
-   <div class="grid-6 alpha">
-
-<h2>Academics</h2>
-<ul>
-    <li><a href="#">Academic Calendars</a> </li>
-    <li><a href="#">Depatments</a></li>
-    <li><a href="#">Undergraduate Programs</a></li>
-    <li><a href="#">Post-Graduate Programs</a></li>
-    <li><a href="#">Past Exams QnA </a></li>
-    <li><a href="#">GeoDev eLibrary</a></li>
-    <li><a href="#">Research</a></li>
-</ul>
-
-<h2>Courses &amp; Registration</h2>
-<ul>
-    <li><a href="#">University Course Catalog</a></li>
-</ul>
-</div>
-
-
-<div class="grid-6 ">
-<h2>Online Tools &amp; Resources</h2>
-<ul>
-	    <li><a href="#">eNotice-Board</a></li>
-    <li><a href="#">GeoDev eLibrary</a></li>
-    <li><a href="#">'One on One' Tutors</a></li>
-    <li><a href="#">Chat Rooms and Forums </a></li>
-        <li><a href="#">Ask IGDS</a></li>
-</ul>
-
-<h2>Campus News</h2>
-<ul>
-    <li><em>
-<a href="#">GeoDevNow</a></em></li>
-    <li>
-<a href="#">Events Calendar</a></li>
-</ul>
-</div>
-
-<div class="grid-6 omega">
-
-<h2>Campus Resources</h2>
-<ul>
-   
-    <li> <a href="#">Identification Card (GeoDev Membership Card)</a></li>
-    <li><a href="#">Dining Services</a></li>
-    <li><a href="#">University Housing</a></li>
-    <li><a href="#">Community  Living </a></li>
-<li><a href="#">Shuttle Bus Schedules</a></li>
- <li><a href="#">Student Affairs</a></li>
-    
-</ul>
-</div>	
-				    </article>
-</div>
-
 
 <!--center rail-->
     <div class="tabs" id="follow-callout" style="display: block;">
@@ -188,13 +171,13 @@
 
 <a href="#" >GeoDev Addresses 'Booster Classes'</a></li> <li class="dataset-item" id="news-dataset-item-3">
 
-<a tabindex="-1"><img src="#" alt="......toyDec. 13 event for the Office of Government and Community Relations' 25th Annual Holiday Food Drive." width="150" height="99"></a>
+<a tabindex="-1"><img src="#" alt=""......toyDec. 13 event for the Office of Government and Community Relations' 25th Annual Holiday Food Drive." width="150" height="99"></a>
 <a href="#">GeoDev  Charity - Make the Holiday Season a Little Brighter Through Charity Drives</a>
 </li></ul>
 
-<p class="more"><a href="http://drexel.edu/ucomm/news-media/newsroom/">More News</a></p>
+<p class="more"><a href="#">More News</a></p>
 
-<p class="more"><a id="viewAllNewsLink" href="http://drexel.edu/now">View All Campus News</a></p>
+
 
 </div>
 			</aside><!--news-->
